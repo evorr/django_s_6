@@ -33,7 +33,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 ALLOWED_HOSTS = [
     # '127.0.0.1',
     # '192.168.1.137',
-    'EvgBaz.pythonanywhere.com',
+    'on5507.pythonanywhere.com',
 ]
 
 INTERNAL_IPS = [
@@ -98,10 +98,10 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'EvgBaz$default',
-        'USER': 'EvgBaz',
+        'NAME': 'on5507$default',
+        'USER': 'on5507',
         'PASSWORD': os.getenv('MYSQL_PASSWORD'),
-        'HOST': 'EvgBaz.mysql.pythonanywhere-services.com',
+        'HOST': 'on5507.mysql.pythonanywhere-services.com',
         'OPTIONS': {
             'init_command': "SET NAMES 'utf8mb4';SET sql_mode='STRICT_TRANS_TABLES'",
             'charset': 'utf8mb4',
